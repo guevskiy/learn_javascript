@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#clock {
+	background-image: url(clock_face.png);
+	width: 800px;
+	height: 800px;
+	margin: 50px auto;
+	border: 1px solid rgb(5, 157, 177);
+}
+
+#arrow {
+	display: block;
+	margin: 0 auto;
+}

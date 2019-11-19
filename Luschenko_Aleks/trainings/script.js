@@ -1,6 +1,7 @@
 document.querySelector('#shBtn').onclick = showContainer;
 document.querySelector('#color-input').onchange = changeColor;
 document.querySelector('#console').onclick = consoleLog;
+document.querySelector('#testClick').onclick = showAlert;
 
 let inputValue = document.querySelector('#input');
 
@@ -28,4 +29,8 @@ function consoleLog() {
     let inpVal = inputValue.value;
     console.log(inpVal);
     // console.log(document.querySelector('#color-input').value);
+}
+
+function showAlert() {
+    alert('ghjdthrf ghjdthrf!!!')
 }
